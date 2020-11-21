@@ -1,0 +1,28 @@
+DMLAB_TASKS = {
+    'dmlab_collect': 'rooms_collect_good_objects_train',
+    'dmlab_collect_few': 'explore_object_rewards_few',
+    'dmlab_compare': 'psychlab_sequential_comparison',
+    'dmlab_doors_large': 'explore_obstructed_goals_large',
+    'dmlab_doors_small': 'explore_obstructed_goals_small',
+    'dmlab_explore_small': 'explore_object_locations_small',
+    'dmlab_find_large': 'explore_goal_locations_large',
+    'dmlab_find_small': 'explore_goal_locations_small',
+    'dmlab_keys': 'rooms_keys_doors_puzzle',
+    'dmlab_lasertag_1': 'lasertag_one_opponent_small',
+    'dmlab_lasertag_3': 'lasertag_three_opponents_small',
+    'dmlab_recognize': 'psychlab_visual_search',
+    'dmlab_watermaze': 'rooms_watermaze',
+}
+
+ATARI_TASKS = [
+    'Alien', 'Amidar', 'Assault', 'Asterix', 'Asteroids', 'Atlantis',
+    'BankHeist', 'BattleZone', 'BeamRider', 'Berzerk', 'Bowling', 'Boxing',
+    'Breakout', 'Centipede', 'ChopperCommand', 'CrazyClimber', 'Defender',
+    'DemonAttack', 'DoubleDunk', 'Enduro', 'FishingDerby', 'Freeway',
+    'Frostbite', 'Gopher', 'Gravitar', 'Hero', 'IceHockey', 'Jamesbond',
+    'Kangaroo', 'Krull', 'KungFuMaster', 'MontezumaRevenge', 'MsPacman',
+    'NameThisGame', 'Phoenix', 'Pitfall', 'Pong', 'PrivateEye', 'Qbert',
+    'Riverraid', 'RoadRunner', 'Robotank', 'Seaquest', 'Skiing', 'Solaris',
+    'SpaceInvaders', 'StarGunner', 'Surround', 'Tennis', 'TimePilot',
+    'Tutankham', 'UpNDown', 'Venture', 'VideoPinball', 'WizardOfWor',
+    'YarsRevenge', 'Zaxxon']
